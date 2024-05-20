@@ -1,0 +1,143 @@
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+input {
+    background-color: rgb(199, 251, 255);
+    height: 25px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+thead {
+    background-color: rgb(253, 255, 151);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}  */
+
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBF7F4;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form styles */
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* background-color: #d9fff9; */
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #A1683A;
+}
+
+
+/* Table header styles */
+table thead {
+    padding: 15px;
+    background-color: #6C9A8B; /* Updated color */
+    color: #fff;
+    text-align: left;
+    border: none;
+}
+
+/* Table header hover effect */
+table th:hover {
+    background-color: #2980b9; /* Darker shade when hovered */
+}
+tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./frontend.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Management</h1>
+    <script>getData()</script>
+    <form id="buttons">
+        <input type="text" placeholder="ID" id="id">
+        <input type="text" placeholder="Name" id="name">
+        <input type="text" placeholder="Email" id="email">
+        <input type="text" placeholder="Password" id="password">
+        <button type="submit" onclick="addData()">Add User</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Password</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody id="userdata">
+
+        </tbody>
+    </table>
+</body>
+</html>
